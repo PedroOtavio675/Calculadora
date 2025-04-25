@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vi;
+    height: 100vi;
+}
+
+.Calculadora{
+
+    width: 300px;
+    
+    
+    
+}
+.botões{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 350px;
+    
+}
+#resultado{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 40px;
+    
+    color: white;
+    width: 300px;
+
+}
+.botões button{
+    font-size:25px;
+    border-radius: 20px;
+    border: none;
+    margin: 4px;
+    background: rgb(73, 71, 71);
+    color: white;
+    cursor: pointer;
+    
+
+}
+#zero{
+    grid-column: span 2;
+}
+#especial{
+    color: orange;
+    
+}
+#igual{
+    background: orange;
+}
+.botões :active{
+    background: rgb(93, 90, 90);
+    margin: 5px;
+}

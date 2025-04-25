@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc4.css">
+
+</head>
+<body>
+    <div class="Calculadora">
+        <div id="resultado">0</div>
+        <div class="botões">
+            <button id="especial" onclick="apagar()">C</button>
+            <button id="especial" onclick="deletar()"><</button>
+            <button id="especial" onclick="porcent('%')">%</button>
+            <button id="especial" onclick="inserir('/')">/</button>
+
+            <button id="butnum" onclick="inserir('7')">7</button>
+            <button id="butnum" onclick="inserir('8')" >8</button>
+            <button id="butnum" onclick="inserir('9')">9</button>
+            <button id="especial" onclick="inserir('*')">*</button>
+
+            <button id="butnum" onclick="inserir('4')">4</button>
+            <button id="butnum" onclick="inserir('5')">5</button>
+            <button id="butnum" onclick="inserir('6')">6</button>
+            <button id="especial" onclick="inserir('-')">-</button>
+
+            <button id="butnum" onclick="inserir('1')">1</button>
+            <button id="butnum" onclick="inserir('2')">2</button>
+            <button id="butnum" onclick="inserir('3')">3</button>
+            <button id="especial" onclick="inserir('+')">+</button>
+
+            <button id="zero" onclick="inserir('0')">0</button>
+            <button id="butnum" onclick="inserir('.')">,</button>
+            <button id="igual" onclick="calc()">=</button>
+        </div>
+    </div>
+</body>
+<script src="calc.js"></script>
+</html>
